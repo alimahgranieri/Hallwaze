@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA655A172045B0C400A0ABA1 /* Master.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA655A162045B0C400A0ABA1 /* Master.swift */; };
 		CAE6E9C420321A7100E4F6EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE6E9C320321A7100E4F6EE /* AppDelegate.swift */; };
 		CAE6E9C620321A7100E4F6EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE6E9C520321A7100E4F6EE /* ViewController.swift */; };
 		CAE6E9C920321A7100E4F6EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE6E9C720321A7100E4F6EE /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA655A162045B0C400A0ABA1 /* Master.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Master.swift; sourceTree = "<group>"; };
 		CAE6E9C020321A7000E4F6EE /* Hallwaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hallwaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAE6E9C320321A7100E4F6EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAE6E9C520321A7100E4F6EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				CAE6E9CA20321A7100E4F6EE /* Assets.xcassets */,
 				CAE6E9CC20321A7100E4F6EE /* LaunchScreen.storyboard */,
 				CAE6E9CF20321A7100E4F6EE /* Info.plist */,
+				CA655A162045B0C400A0ABA1 /* Master.swift */,
 			);
 			path = Hallwaze;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA655A172045B0C400A0ABA1 /* Master.swift in Sources */,
 				CAE6E9C620321A7100E4F6EE /* ViewController.swift in Sources */,
 				CAE6E9C420321A7100E4F6EE /* AppDelegate.swift in Sources */,
 			);
@@ -427,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JCJ57D6D3;
 				INFOPLIST_FILE = Hallwaze/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "New-Wave.Hallwaze";
@@ -441,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JCJ57D6D3;
 				INFOPLIST_FILE = Hallwaze/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "New-Wave.Hallwaze";
